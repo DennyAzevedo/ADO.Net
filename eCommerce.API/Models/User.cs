@@ -1,9 +1,9 @@
 ﻿namespace eCommerce.API.Models
 {
-	public class Usuario
+	public class User
 	{
 		public int Id { get; set; }
-		public string Nome { get; set; }
+		public string Name { get; set; }
 		public string Email { get; set; }
 	}
 }
